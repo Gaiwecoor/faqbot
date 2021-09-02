@@ -1,0 +1,25 @@
+{
+  "name": "faqbot",
+  "version": "1.0.0",
+  "description": "FAQ Bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaiwecoor/faqbot.git"
+  },
+  "author": "Kevin \"Gaiwecoor\" Dixon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gaiwecoor/faqbot/issues"
+  },
+  "homepage": "https://github.com/Gaiwecoor/faqbot#readme",
+  "dependencies": {
+    "augurbot": "github:gaiwecoor/augurbot#dev",
+    "discord.js": "^13.1.0",
+    "lowdb": "^1.0.0",
+    "nanoid": "^3.1.25"
+  }
+}

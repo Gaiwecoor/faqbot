@@ -1,3 +1,9 @@
+config.json
+db.json
+*-
+*-.js
+*-.json
+
 # Logs
 logs
 *.log
