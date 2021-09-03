@@ -53,8 +53,8 @@ const Module = new Augur.Module()
       trigger: RegExp(source, flags),
       response
     });
-    if (!faqs.has(guildId)) faqs.set(guildId, new Map());
-    faqs.get(guildId).set(entry._id, entry);
+    if (!faqs.has(entry.guildId)) faqs.set(entry.guildId, new Map());
+    faqs.get(entry.guildId).set(entry._id, entry);
 
     msg.reply({ content: `I saved the FAQ with id: \`${entry._id}\`.`, allowedMentions }).then(u.clean).catch(u.noop);
   }
